@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+body {
+    color: #888;
+    background: rgb(150, 150, 150);
+    font-family: 'Oswald', sans-serif;
+    padding-top: 100px;
+}
+
+.time-card {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.time-card .time {
+    background: rgba(0, 0, 0, .8);
+    margin: 5px;
+    border-radius: 5px;
+    padding: 0px 10px;
+    box-shadow: 0 5px 14px 1px #16161652;
+    width: 60px;
+    text-align: center;
+}
+
+.time-card .time h1 {
+    font-size: 50px;
+}
